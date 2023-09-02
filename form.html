@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<body>
+    <input type="text" id="myInput" placeholder="Enter your name">
+    <button id="myButton" onclick="show()">Submit</button>
+    <p id="alert">  </p>
+</body>
+<script>
+     function show(){
+        let H = document.getElementById("alert")
+        let N = document.getElementById("myInput").value
+        H.innerText=N
+        
+     }
+</script>
+</html>
